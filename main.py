@@ -66,7 +66,7 @@ def send_to_psy(message, username_skype=None):
     if problem:
         info += "\nОпис проблемы: {}".format(problem)
 
-    bot.send_message(constants.admin_chat_id, info)
+    bot.send_message(constants.psy_chat_id, info)
     sleep(10)
 
 
