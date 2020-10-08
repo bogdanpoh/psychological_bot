@@ -7,7 +7,7 @@ start_text = """
 
 select_social_network = "Оберіть соц.мережу для консультацій:"
 
-send_detail_your_problem = "Опишіть Вашу проблему:"
+send_detail_your_problem = "Ваш запит (проблема):"
 not_found_answer = "\U0001F648 Команда не знайдена"
 
 send_number_please = "Будь ласка, відправте номер"

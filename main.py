@@ -55,9 +55,6 @@ def remove_keyboard():
 def send_to_psy(message, username_skype=None):
 
     global select_type
-    # global username_skype
-
-    print(select_type)
 
     user = User(message, select_type)
 
