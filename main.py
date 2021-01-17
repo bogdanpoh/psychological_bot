@@ -144,7 +144,7 @@ def process_send_problem(message):
 
 def main():
     try:
-        bot.polling(none_stop=True, interval=0)
+        bot.infinity_polling(True)
     except Exception as ex:
         bot.send_message(chat_id=constants.admin_chat_id,
                          text="psychological bot shutdown...\nError description: {}".format(str(ex)))
